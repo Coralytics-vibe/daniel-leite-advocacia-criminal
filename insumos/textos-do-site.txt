@@ -1,0 +1,88 @@
+# CONTEÚDO PARA SITE: ADVOCACIA DANIEL LEITE (FOCO CRIMINAL)
+
+## PÁGINA 1: HOME
+- **Meta Title**: Daniel Leite Advocacia Criminal | Defesa Estratégica 24h
+- **Meta Description**: Especialista em Direito Criminal com plantão 24h. Atuação agressiva em Delegacias, Habeas Corpus e Tribunal do Júri. Proteção máxima à sua liberdade.
+
+### Hero Section
+- **H1**: Advogado Criminalista 24 Horas. Sua Liberdade Não Pode Esperar.
+- **Subtítulo**: Defesa técnica, estratégica e imediata. Atendimento especializado em prisões em flagrante, acompanhamento em delegacia e medidas urgentes.
+- **CTA Principal**: PLANTÃO 24H (WhatsApp)
+- **CTA Secundário**: Conheça Nossa Atuação
+
+### Resumo "Sobre"
+- **Título**: Defesa Intransigente da Liberdade.
+- **Texto**: Com mais de 15 anos de atuação exclusiva na área criminal, Daniel Leite Advocacia é reconhecido pela estratégia agressiva e sigilo absoluto. Protegemos seus direitos nos momentos de maior vulnerabilidade diante do Estado.
+- **CTA**: Conheça Nossa Estratégia
+
+### Preview de Serviços (Ações Urgentes)
+1. **Plantão 24h / Delegacia**: Acompanhamento imediato em prisões em flagrante e depoimentos para evitar ilegalidades desde o primeiro momento.
+2. **Habeas Corpus / Liberdade**: Medidas urgentes para revogação de prisões preventivas e garantia da liberdade individual.
+3. **Tribunal do Júri**: Defesa técnica especializada em crimes dolosos contra a vida, com foco em teses absolutorias complexas.
+4. **Lei Maria da Penha / Violência Doméstica**: Defesa estratégica e acompanhamento em medidas protetivas com foco no equilíbrio e justiça.
+
+### Prova Social
+- **Título**: Autoridade Confirmada por Resultados
+- **Depoimento 1**: "O Dr. Daniel foi fundamental no meu caso. Resposta imediata na delegacia e liberdade concedida em tempo recorde. Profissional de elite." [Carlos Alberto]
+- **Depoimento 2**: "Estratégia impecável. O sigilo e o profissionalismo me deram a tranquilidade necessária em um momento crítico." [Ana Paula]
+
+### Rodapé / Chamada Final
+- **Título**: Precisa de Defesa Agora?
+- **Chamada**: Clique no botão abaixo para falar com o especialista do plantão.
+
+---
+
+## PÁGINA 2: SOBRE NÓS
+- **Meta Title**: Sobre Dr. Daniel Leite | Especialista em Defesa Criminal
+- **Meta Description**: Conheça a trajetória de Daniel Leite, advogado criminalista focado em resultados rápidos e estratégias complexas de defesa.
+
+### Título (H1)
+- **H1**: Autoridade em Defesa Criminal
+
+### Nossa História
+- **Texto**: A advocacia criminal exige mais do que conhecimento técnico; exige coragem e prontidão. O escritório Daniel Leite Advocacia foi fundado para preencher a lacuna de defesa imediata e estratégica. Ao longo de 15 anos, enfrentamos os casos mais complexos com um único objetivo: a proteção absoluta da liberdade e da dignidade de nossos clientes sob o manto do devido processo legal.
+
+### Missão e Valores Criminais
+- **Atuação**: Agressividade técnica, sigilo absoluto e rapidez de resposta.
+- **Valores**: Lealdade incondicional ao cliente, transparência sobre as chances reais e combate incessante a abusos de autoridade.
+
+---
+
+## PÁGINA 3: SERVIÇOS (ESPECIALIDADES CRIMINAIS)
+- **Meta Title**: Especialidades Criminais | Daniel Leite Advocacia
+- **Meta Description**: Detalhamento da atuação em Tráfico de Drogas, Crimes de Colarinho Branco, Juri e Plantão 24h.
+
+### Título (H1)
+- **H1**: Excelência em Defesa Criminal
+- **Intro**: Atuamos em todas as instâncias e fases da persecução penal, garantindo uma defesa técnica de alta performance.
+
+### Detalhamento
+1. **Atendimento em Delegacia e Flagrantes**
+   - **Descrição**: O momento da prisão é o mais crítico. Nossa equipe atua em campo 24 horas por dia para garantir que nenhum direito seja violado e para preparar a base da defesa futura.
+   - **CTA**: Acionar Plantão 24h
+2. **Defesa em Tribunal do Júri e Crimes Graves**
+   - **Descrição**: Atuação em casos de homicídio, latrocínio e outros crimes graves com sustentação oral profunda e convencimento de jurados.
+   - **CTA**: Agendar Consultoria
+3. **Habeas Corpus e Recursos Superiores**
+   - **Descrição**: Impetração de medidas urgentes perante Tribunais e instâncias superiores (STJ/STF) para cessar ilegalidades e garantir a soltura.
+   - **CTA**: Analisar Recurso
+
+---
+
+## PÁGINA 4: CONTATO (URGÊNCIA)
+- **Meta Title**: EMERGÊNCIA CRIMINAL 24H | Fale com Daniel Leite
+- **Meta Description**: Canal de atendimento urgente para casos criminais. Ligue agora ou envie mensagem no WhatsApp.
+
+### Título (H1)
+- **H1**: Defesa Imediata
+- **Intro**: Para emergências criminais, utilize o canal de WhatsApp para resposta instantânea.
+
+### Informações de Plantão
+- **EMERGÊNCIA 24H**: +55 (61) 98888-0000 (WhatsApp)
+- **E-mail**: urgente@daniel-leite.adv.br
+- **Endereço**: Ed. Premium, Sala 204. Valparaíso de Goiás.
+- **Horário**: Atendimento físico comercial / Plantão remoto 24h.
+
+### Formulário de Consulta
+- **Campos**: Nome, Telefone, Caso Urgente (Sim/Não), Resumo do Caso.
+- **CTA**: Solicitar Análise de Especialista

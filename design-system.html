@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design System - Daniel Leite Advocacia (Foco Criminal)</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Boldonse&family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+    <script>
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "surface": "#000000",
+                        "surface-container-low": "#0A0A0A",
+                        "surface-container-high": "#121212",
+                        "surface-container-highest": "#1A1A1A",
+                        "primary-container": "#D4AF37",
+                        "on-surface": "#FFFFFF",
+                        "on-surface-variant": "#A0A0A0",
+                        "outline-variant": "#262626",
+                    },
+                    fontFamily: {
+                        "headline": ["Boldonse", "serif"],
+                        "body": ["Inter", "sans-serif"],
+                    },
+                }
+            }
+        }
+    </script>
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        h1, h2, h3, h4, h5, h6 { font-family: 'Boldonse', serif; }
+        .gold-glow { text-shadow: 0 0 30px rgba(212, 175, 55, 0.4); }
+        .glass-nav { background: rgba(0, 0, 0, 0.85); backdrop-filter: blur(20px); }
+        .sidebar-link.active {
+            color: #D4AF37;
+            border-right: 4px solid #D4AF37;
+        }
+        ::-webkit-scrollbar { width: 8px; }
+        ::-webkit-scrollbar-track { background: #000000; }
+        ::-webkit-scrollbar-thumb { background: #D4AF37; border-radius: 4px; }
+    </style>
+</head>
+<body class="bg-surface text-on-surface flex text-[15px]">
+
+    <!-- Sidebar -->
+    <aside class="w-72 h-screen sticky top-0 bg-surface border-r border-outline-variant/30 flex flex-col p-8 gap-8 shadow-2xl">
+        <div class="mb-8">
+            <div class="text-2xl font-headline font-bold text-primary-container tracking-tight gold-glow uppercase">Daniel Leite</div>
+            <div class="text-[10px] uppercase tracking-[0.4em] text-on-surface/40 mt-1">Criminalista 24h</div>
+        </div>
+        <nav class="flex flex-col gap-6">
+            <a href="#cores" class="sidebar-link text-on-surface/60 hover:text-primary-container transition-colors duration-300 font-bold tracking-wide">Palette: Black & Gold</a>
+            <a href="#tipografia" class="sidebar-link text-on-surface/60 hover:text-primary-container transition-colors duration-300 font-bold tracking-wide">Urgência Editorial</a>
+            <a href="#componentes" class="sidebar-link text-on-surface/60 hover:text-primary-container transition-colors duration-300 font-bold tracking-wide">Botões de Plantão</a>
+        </nav>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="flex-1 p-16 max-w-5xl">
+        
+        <!-- Header -->
+        <header class="mb-20">
+            <h2 class="text-6xl font-headline text-primary-container mb-4 gold-glow font-extrabold uppercase">CRIMINAL DESIGN</h2>
+            <p class="text-on-surface/60 text-lg font-body">Inspirado na referência Vinicius Simino: Autoridade Criminalista 24h</p>
+        </header>
+
+        <!-- Cores -->
+        <section id="cores" class="mb-32">
+            <h3 class="text-2xl font-bold border-b border-outline-variant/30 pb-4 mb-10 uppercase tracking-[0.2em] text-primary-container">Imersão Total</h3>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Pure Black -->
+                <div class="group">
+                    <div class="h-40 bg-surface rounded-t-2xl border border-outline-variant/30 transition-all group-hover:scale-[1.02] duration-500 shadow-lg"></div>
+                    <div class="bg-surface-container-low p-6 rounded-b-2xl border border-outline-variant/30 shadow-xl">
+                        <p class="font-bold text-primary-container text-sm uppercase tracking-wider">Obsidian (Pure Black)</p>
+                        <p class="text-xs text-on-surface/50 mt-1">#000000</p>
+                    </div>
+                </div>
+                <!-- Pure Gold -->
+                <div class="group">
+                    <div class="h-40 bg-primary-container rounded-t-2xl transition-all group-hover:scale-[1.02] duration-500 shadow-lg"></div>
+                    <div class="bg-surface-container-low p-6 rounded-b-2xl border border-outline-variant/30 shadow-xl">
+                        <p class="font-bold text-surface text-sm uppercase tracking-wider">Authority Gold</p>
+                        <p class="text-xs text-on-surface/50 mt-1">#D4AF37</p>
+                    </div>
+                </div>
+                <!-- Highlight White -->
+                <div class="group">
+                    <div class="h-40 bg-white rounded-t-2xl transition-all group-hover:scale-[1.02] duration-500 shadow-lg"></div>
+                    <div class="bg-surface-container-low p-6 rounded-b-2xl border border-outline-variant/30 shadow-xl">
+                        <p class="font-bold text-surface text-sm uppercase tracking-wider">Highlight White</p>
+                        <p class="text-xs text-on-surface/50 mt-1">#FFFFFF</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Typography -->
+        <section id="tipografia" class="mb-32">
+            <h3 class="text-2xl font-bold border-b border-outline-variant/30 pb-4 mb-10 uppercase tracking-[0.2em] text-primary-container">Urgência Typo</h3>
+            <div class="space-y-12">
+                <div class="p-12 bg-surface-container-low border border-outline-variant/30 rounded-2xl">
+                    <p class="text-[11px] text-primary-container mb-6 uppercase tracking-[0.3em] font-bold">Boldonse - Impacto imediato</p>
+                    <h1 class="text-7xl font-bold text-on-surface leading-tight tracking-tight gold-glow uppercase">Libertate Tua. Strategia Nostra.</h1>
+                    <p class="text-on-surface/40 mt-8 font-body">Used for high-stakes hero sections and 24h warnings.</p>
+                </div>
+                <div class="p-12 bg-surface-container-low border border-outline-variant/30 rounded-2xl">
+                    <p class="text-[11px] text-primary-container mb-6 uppercase tracking-[0.3em] font-bold">Inter (Semi-Bold) - Clareza</p>
+                    <p class="text-2xl font-body leading-relaxed text-on-surface/80">Atuação agressiva e estratégica para garantir sua liberdade e dignidade diante do Estado.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- UI Elements -->
+        <section id="componentes" class="mb-32">
+            <h3 class="text-2xl font-bold border-b border-outline-variant/30 pb-4 mb-10 uppercase tracking-[0.2em] text-primary-container">Criminal UI</h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-20">
+                <div class="space-y-10">
+                    <h4 class="text-on-surface/40 uppercase text-[11px] font-bold tracking-[0.3em] mb-6">Urgência CTA</h4>
+                    <div class="flex flex-col gap-6">
+                        <button class="bg-primary-container text-surface font-extrabold py-6 px-12 rounded-xl hover:scale-105 transition-all duration-300 shadow-[0_0_40px_rgba(212,175,55,0.3)] uppercase text-sm tracking-[0.2em]">Acionar Plantão 24h</button>
+                    </div>
+                </div>
+                <div class="space-y-10">
+                    <h4 class="text-on-surface/40 uppercase text-[11px] font-bold tracking-[0.3em] mb-6">Crime Card</h4>
+                    <div class="bg-surface-container-high p-10 rounded-[2rem] border border-outline-variant/50 hover:border-primary-container transition-all duration-500 shadow-2xl group">
+                        <span class="material-symbols-outlined text-5xl text-primary-container mb-8 block" style="font-variation-settings: 'FILL' 1;">security</span>
+                        <h5 class="text-2xl font-bold mb-4 tracking-tight uppercase">Tráfico de Drogas</h5>
+                        <p class="text-on-surface/50 leading-relaxed text-sm font-body">Defesa técnica especializada em teses de nulidade e desclassificação.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="text-center text-on-surface/20 text-[10px] mt-40 border-t border-outline-variant/30 pt-12 tracking-[1em] uppercase">
+            Criminal Authority DNA
+        </footer>
+    </main>
+
+    <script>
+        // Active link on scroll
+        window.addEventListener('scroll', () => {
+            let current = "";
+            const sections = document.querySelectorAll("section");
+            const navLinks = document.querySelectorAll(".sidebar-link");
+
+            sections.forEach((section) => {
+                const sectionTop = section.offsetTop;
+                if (window.scrollY >= sectionTop - 150) {
+                    current = section.getAttribute("id");
+                }
+            });
+
+            navLinks.forEach((link) => {
+                link.classList.remove("active");
+                if (link.getAttribute("href").includes(current)) {
+                    link.classList.add("active");
+                }
+            });
+        });
+    </script>
+</body>
+</html>
+

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Especialidades | Daniel Leite - Excelência em Defesa Criminal</title>
+    <meta name="description" content="Atuação estratégica em Tribunais Superiores, Júri, Tráfico de Drogas e Plantão 24h em Delegacia.">
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Boldonse&family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <script>
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "surface": "#000000",
+                        "surface-container-low": "#0A0A0A",
+                        "surface-container-high": "#121212",
+                        "surface-container-highest": "#1A1A1A",
+                        "primary-container": "#D4AF37",
+                        "on-surface": "#FFFFFF",
+                        "on-surface-variant": "#A0A0A0",
+                        "outline-variant": "#262626",
+                    },
+                    fontFamily: {
+                        "headline": ["Boldonse", "serif"],
+                        "body": ["Inter", "sans-serif"],
+                    },
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-surface text-on-surface font-body selection:bg-primary-container selection:text-surface">
+
+    <!-- Header / Navigation -->
+    <nav class="fixed top-0 w-full z-50 glass-nav border-b border-outline-variant/30">
+        <div class="max-w-7xl mx-auto px-6 md:px-12 h-24 flex justify-between items-center">
+            <a href="index.html" class="flex flex-col">
+                <span class="text-2xl md:text-3xl font-headline font-extrabold text-primary-container tracking-tight gold-glow leading-none uppercase">Daniel Leite</span>
+                <span class="text-[9px] uppercase tracking-[0.5em] text-on-surface/40 mt-1 font-bold">Criminalista 24h</span>
+            </a>
+            
+            <div class="hidden lg:flex items-center gap-10">
+                <a href="index.html" class="text-on-surface/60 font-bold uppercase text-xs tracking-widest hover:text-primary-container transition-colors">Início</a>
+                <a href="sobre.html" class="text-on-surface/60 font-bold uppercase text-xs tracking-widest hover:text-primary-container transition-colors">O Escritório</a>
+                <a href="servicos.html" class="text-primary-container font-bold uppercase text-xs tracking-widest hover:text-primary-container transition-colors">Especialidades</a>
+                <a href="contato.html" class="text-on-surface/60 font-bold uppercase text-xs tracking-widest hover:text-primary-container transition-colors">Contato</a>
+            </div>
+            
+            <a href="https://wa.me/5561988880000" class="hidden md:flex items-center gap-3 bg-primary-container text-surface px-8 py-3 rounded-full font-extrabold text-xs tracking-[0.2em] uppercase hover:scale-105 transition-transform shadow-[0_0_30px_rgba(212,175,55,0.3)]">
+                <span class="material-symbols-outlined text-xl">urgent</span>
+                Plantão 24h
+            </a>
+            
+            <button id="menu-btn" class="lg:hidden text-primary-container">
+                <span class="material-symbols-outlined text-4xl">menu</span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="pt-48 pb-24 relative overflow-hidden bg-surface-container-low border-b border-outline-variant/30">
+        <div class="max-w-7xl mx-auto px-6 md:px-12 relative z-10 text-center">
+            <h1 class="text-5xl md:text-8xl font-headline font-extrabold mb-8 gold-glow reveal uppercase tracking-tight">Atuação Penal</h1>
+            <p class="text-xl md:text-2xl text-on-surface/40 max-w-3xl mx-auto reveal font-light" style="animation-delay: 0.1s;">Excelência técnica em todas as fases da persecução penal.</p>
+        </div>
+    </section>
+
+    <!-- Content -->
+    <main class="py-32">
+        <div class="max-w-7xl mx-auto px-6 md:px-12 space-y-32">
+            
+            <!-- Service 1 -->
+            <div class="flex flex-col lg:flex-row gap-20 items-center reveal">
+                <div class="lg:w-1/2">
+                    <span class="text-primary-container uppercase tracking-[0.4em] text-xs font-bold mb-6 block">Urgência Máxima</span>
+                    <h2 class="text-4xl md:text-5xl font-headline font-extrabold mb-8 uppercase tracking-tight">Plantão em Delegacia e <span class="text-primary-container">Flagrantes.</span></h2>
+                    <p class="text-lg text-on-surface/50 leading-relaxed mb-10 font-light">O momento da prisão é o mais crítico. Nossa equipe atua em campo 24 horas por dia para garantir que nenhum direito seja violado e para preparar a base da defesa futura. Não preste depoimento sem auxílio técnico.</p>
+                    <a href="https://wa.me/5561988880000" class="bg-primary-container text-surface px-10 py-4 rounded-full font-extrabold uppercase text-xs tracking-widest hover:scale-105 transition-transform inline-block">Acionar Emergência 24h</a>
+                </div>
+                <div class="lg:w-1/2 bg-surface-container-low p-16 rounded-[3rem] shadow-2xl border border-outline-variant/30 text-center flex flex-col items-center group">
+                    <span class="material-symbols-outlined text-primary-container text-[8rem] mb-8 group-hover:scale-110 transition-transform">local_police</span>
+                    <div class="text-xs uppercase tracking-[0.6em] text-on-surface/20 group-hover:text-primary-container transition-colors">Prontidão Instantânea</div>
+                </div>
+            </div>
+
+            <!-- Service 2 -->
+            <div class="flex flex-col lg:flex-row-reverse gap-20 items-center reveal" style="animation-delay: 0.1s;">
+                <div class="lg:w-1/2">
+                    <span class="text-primary-container uppercase tracking-[0.4em] text-xs font-bold mb-6 block">Medidas de Liberdade</span>
+                    <h2 class="text-4xl md:text-5xl font-headline font-extrabold mb-8 uppercase tracking-tight">Habeas Corpus e <span class="text-primary-container">Soltura.</span></h2>
+                    <p class="text-lg text-on-surface/50 leading-relaxed mb-10 font-light">Impetração de medidas urgentes perante Tribunais Estaduais e Superiores (STJ/STF) para cessar ilegalidades, revogar prisões preventivas e garantir a soltura imediata de cidadãos detidos indevidamente.</p>
+                    <a href="https://wa.me/5561988880000" class="bg-primary-container text-surface px-10 py-4 rounded-full font-extrabold uppercase text-xs tracking-widest hover:scale-105 transition-transform inline-block">Analisar Processo</a>
+                </div>
+                <div class="lg:w-1/2 bg-surface-container-low p-16 rounded-[3rem] shadow-2xl border border-outline-variant/30 text-center flex flex-col items-center group">
+                    <span class="material-symbols-outlined text-primary-container text-[8rem] mb-8 group-hover:scale-110 transition-transform">lock_open</span>
+                    <div class="text-xs uppercase tracking-[0.6em] text-on-surface/20 group-hover:text-primary-container transition-colors">Garantismo Penal</div>
+                </div>
+            </div>
+
+            <!-- Service 3 -->
+            <div class="flex flex-col lg:flex-row gap-20 items-center reveal" style="animation-delay: 0.2s;">
+                <div class="lg:w-1/2">
+                    <span class="text-primary-container uppercase tracking-[0.4em] text-xs font-bold mb-6 block">Elite da Defesa</span>
+                    <h2 class="text-4xl md:text-5xl font-headline font-extrabold mb-8 uppercase tracking-tight">Tribunal do Júri de <span class="text-primary-container">Alta Complexidade.</span></h2>
+                    <p class="text-lg text-on-surface/50 leading-relaxed mb-10 font-light">Atuação em casos de crimes dolosos contra a vida com sustentação oral profunda e convencimento de jurados. Foco em teses absolutórias, nulidades de plenário e quesitação estratégica.</p>
+                    <a href="https://wa.me/5561988880000" class="bg-primary-container text-surface px-10 py-4 rounded-full font-extrabold uppercase text-xs tracking-widest hover:scale-105 transition-transform inline-block">Solicitar Consultoria</a>
+                </div>
+                <div class="lg:w-1/2 bg-surface-container-low p-16 rounded-[3rem] shadow-2xl border border-outline-variant/30 text-center flex flex-col items-center group">
+                    <span class="material-symbols-outlined text-primary-container text-[8rem] mb-8 group-hover:scale-110 transition-transform">gavel</span>
+                    <div class="text-xs uppercase tracking-[0.6em] text-on-surface/20 group-hover:text-primary-container transition-colors">Plenário e Veredito</div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-surface py-32 px-6 border-t border-outline-variant/10">
+        <div class="max-w-7xl mx-auto grid md:grid-cols-4 gap-20">
+            <div class="md:col-span-2 space-y-12">
+                <a href="index.html" class="flex flex-col">
+                    <span class="text-4xl font-headline font-extrabold text-primary-container gold-glow uppercase">Daniel Leite</span>
+                    <span class="text-[10px] uppercase tracking-[0.5em] text-on-surface/40 mt-1 font-bold">Criminalista 24h</span>
+                </a>
+            </div>
+            
+            <div class="space-y-10">
+                <h4 class="text-white font-bold uppercase text-xs tracking-widest">Atendimento</h4>
+                <div class="space-y-4">
+                    <p class="text-primary-container font-extrabold text-xl">+55 (61) 98888-0000</p>
+                    <p class="text-on-surface/30 text-xs">Exclusivamente Criminal</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/script.js"></script>
+</body>
+</html>
